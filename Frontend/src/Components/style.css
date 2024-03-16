@@ -1,0 +1,37 @@
+.div1 label {
+    font-size: 30px; /* Adjust the font size as needed */
+    justify-content: center; /* Center-align text horizontally */
+}
+.text{
+    width: 11vw;
+    height: 6vh;
+    font-size: 120%;
+    text-align: center;
+}
+.text2{
+    margin-left: -0.2%;
+    width: 1vw;
+    height: 6.8vh;
+    text-align: center;
+}
+.but{
+    margin-left: 5px;
+    width: 8vw;
+    height: 6vh;
+    font-weight: bolder;
+}
+.cal{
+    margin-left:23%;
+    width: 20vw;
+    height: 22vh;
+    background-color: azure;
+    color:black;
+}
+
+.calendar-container {
+    position: absolute;
+    top: calc(100%); /* Adjust the distance from the input */
+    left: 0;
+    z-index: 999; /* Ensure the calendar appears on top */
+  }
+  
